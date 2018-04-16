@@ -1,0 +1,15 @@
+txt文件浏览器_v1_0b.exe是一个浏览txt文件的应用程序。
+
+1. 程序使用上的注意：
+（1）您应该选择打开包含txt文件的文件夹，否则程序会弹窗提醒。
+（2）本程序能够获取文件夹下所有名称，而不是同时打开多个文件，因此内存占用极小。
+（3）程序支持快捷键：方向左键回到上一个文件，方向右键浏览下一个文件。
+（4）当前应用仅适用于windows默认编码（即ANSI）的txt文件，后续版本将会提升对更多文件编码的支持。
+
+2. 关于源代码的说明：
+（1）本程序使用visual studio进行开发，具体项目选择是Visual C#-Windows桌面-WPF应用程序
+（2）源代码分为两部分，分别是前台的.xaml和后台的.xaml.cs，具体再现开发时请将这两项的内容复制到MainWindow.xaml窗口和MainWindow.xaml.cs窗口
+（3）值得注意的是，在visual studio的环境下重现本应用程序开发时，请务必于解决方案资源管理器目录下添加引用——System.Windows.Forms
+
+本文档最后更新于2018.04.16_18:13 by Cooper Liu
+Questions ? Contact me: anglepoint@foxmail.com

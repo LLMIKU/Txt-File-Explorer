@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -116,9 +116,16 @@ namespace WpfApplication1
             try
             {
                 if (e.Key == Key.Left)//如果是方向左键
-                    Button_Click1(this, null);
+                {
+                    txts.ScrollToHome();//文本框内容滚动到开头       
+                    Button_Click1(this, null);              
+                }
+                    
                 if (e.Key == Key.Right)
+                {
+                    txts.ScrollToHome(); 
                     Button_Click2(this, null);
+                }                   
                 if (e.Key == Key.Down)
                 {
                     //int line = txts.GetLastVisibleLineIndex();
